@@ -43,13 +43,13 @@ if (isset($_POST['login'])) {
    <!-- Open Graph meta tags -->
    <meta property="og:title" content="Marly Silver - ODS">
     <meta property="og:description" content="Delivery Management System for Marly Silver">
-    <meta property="og:image" content="./img/logo.png">
+    <meta property="og:image" content="./img/logo-bk.jpg">
     <meta property="og:url" content="http://ods.marlysilver.com/">
     <meta property="og:type" content="website">
     
     <!-- Twitter Card (Optional) -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="./img/logo.png">
+    <meta name="twitter:image" content="./img/logo-bk.jpg">
 </head>
 <body>
 
