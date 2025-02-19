@@ -120,7 +120,16 @@ $totalbranches = mysqli_num_rows($resultbranches);
     <script src="./js/e-search.min.js"></script>
     <script src="https://kit.fontawesome.com/a6e251be7b.js" crossorigin="anonymous"></script>
 
-
+   <!-- Open Graph meta tags -->
+   <meta property="og:title" content="Marly Silver - ODS">
+    <meta property="og:description" content="Delivery Management System for Marly Silver">
+    <meta property="og:image" content="./img/logo.png">
+    <meta property="og:url" content="http://ods.marlysilver.com/">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card (Optional) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="./img/logo.png">
 
 </head>
 
