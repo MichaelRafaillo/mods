@@ -664,6 +664,9 @@ Marly Silver
                                     <option value="Mall Of Egypt" <?php if ($row["branch"] == 'Mall Of Egypt') {
                                                                         echo 'selected';
                                                                     } ?>>Mall Of Egypt</option>
+                                                                    <option value="Office" <?php if ($row["branch"] == 'Office') {
+                                                                        echo 'selected';
+                                                                    } ?>>Office</option>
                                 </select>
 
 
