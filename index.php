@@ -619,6 +619,9 @@ Marly Silver
                                     <option value="" <?php if ($row["branch"] == '') {
                                                             echo 'selected';
                                                         } ?>></option>
+                                                        <option value="Korba" <?php if ($row["branch"] == 'Korba') {
+                                                                            echo 'selected';
+                                                                        } ?>>Korba</option>
                                     <option value="City Stars Mall 1" <?php if ($row["branch"] == 'City Stars Mall 1') {
                                                                             echo 'selected';
                                                                         } ?>>City Stars Mall 1</option>
