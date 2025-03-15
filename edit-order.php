@@ -53,6 +53,9 @@ if (isset($_POST['submit'])) {
   $comment = $_POST['comment'];
   $address = $_POST['address'];
 
+  if ($ddate == '') {
+    $ddate = '0000-00-00';
+  }
 
   $sql = "UPDATE `orders` SET `order_no` = '$id', `order_date`='$orderdate', `confirmation`='$confirmation',`name` = '$name' , `phone` = '$phone' , `zone` = '$zone' , `delivery_date` = '$ddate' , `status` = '$status' , `comment` = '$comment' , `address` = '$address' WHERE `order_no` = '$id'";
   mysqli_query($conn, $sql);
