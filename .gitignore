@@ -1,0 +1,25 @@
+# Ignore auto.php file
+auto.php
+
+# Common files to ignore
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dependencies
+/node_modules/
+/vendor/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build output
+/dist/
+/build/ 
